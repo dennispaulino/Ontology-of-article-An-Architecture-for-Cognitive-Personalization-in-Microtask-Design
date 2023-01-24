@@ -1,0 +1,1522 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/denni/ontologies/cognitivepersonalizationcrowdwork"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/denni/ontologies/cognitivepersonalizationcrowdwork">
+    <Prefix name="" IRI="http://www.semanticweb.org/denni/ontologies/cognitivepersonalizationcrowdwork"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Attention_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AudioPlayerElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Body_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreadCrumbElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ButtonElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Calculation_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Categorization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CheckBoxElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_Load"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_Style"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cognitive_flexibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Creation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Moderation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Validation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Verification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Enhancement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Matching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Selection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demographics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DropdownElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Energy_and_drive_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experience_of_self_and_time_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Extrinsic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Global_Mental_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Higher-level_cognitive_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IconElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ImageElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Information_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Inhibition_Control"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InputTextElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intrinsic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Media_Transcription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Memory_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_Functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mental_functions_of_language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metadata_finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MicroTasks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perceptual_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Promoting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality_Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadioButtonElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ranking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentiment_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spam_Detection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specific_mental_functions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surveys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tagging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Testing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Text-LabelElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Translation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserInterfaceElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal_Visual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VideoPlayerElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebDesign"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WebDesignGuideline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wholist_Analytic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working_memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Writing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feedback/Opinions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verification_&amp;_Validation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCapability"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#idDueTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#linksTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#relatedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analytic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AudioPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BreadCrumb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Button"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CheckBox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dropdown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoodCognitiveFlexibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoodInhibitionControl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoodWorkingMemory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighControlAction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Icon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InputText"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowControlAction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicroTask"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoorCognitiveFlexibility"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoorInhibitionControl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PoorWorkingMemory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RadioButton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TextLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Verbal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VideoPlayer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Visual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wholist"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Attention_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AudioPlayerElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreadCrumbElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ButtonElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calculation_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Categorization"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CheckBoxElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Classification"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_Load"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_Style"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cognitive_flexibility"/>
+        <Class IRI="#Higher-level_cognitive_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Access"/>
+        <Class IRI="#MicroTasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Creation"/>
+        <Class IRI="#MicroTasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Moderation"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Validation"/>
+        <Class IRI="#Verification_&amp;_Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Verification"/>
+        <Class IRI="#Verification_&amp;_Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlAction"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Enhancement"/>
+        <Class IRI="#Content_Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Matching"/>
+        <Class IRI="#Verification_&amp;_Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Selection"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demographics"/>
+        <Class IRI="#Surveys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DropdownElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Energy_and_drive_functions"/>
+        <Class IRI="#Global_Mental_Functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experience_of_self_and_time_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Extrinsic"/>
+        <Class IRI="#Cognitive_Load"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Global_Mental_Functions"/>
+        <Class IRI="#Mental_Functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Higher-level_cognitive_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IconElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ImageElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Information_Finding"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Inhibition_Control"/>
+        <Class IRI="#Energy_and_drive_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InputTextElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Intrinsic"/>
+        <Class IRI="#Cognitive_Load"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Media_Transcription"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Memory_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_Functions"/>
+        <Class IRI="#Body_Functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mental_functions_of_language"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metadata_finding"/>
+        <Class IRI="#Information_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MicroTasks"/>
+        <Class IRI="#Task"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perceptual_functions"/>
+        <Class IRI="#Specific_mental_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Promoting"/>
+        <Class IRI="#Content_Access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality_Assessment"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadioButtonElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ranking"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentiment_Analysis"/>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spam_Detection"/>
+        <Class IRI="#Verification_&amp;_Validation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specific_mental_functions"/>
+        <Class IRI="#Mental_Functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surveys"/>
+        <Class IRI="#MicroTasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tagging"/>
+        <Class IRI="#Content_Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Testing"/>
+        <Class IRI="#Content_Access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Text-LabelElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Translation"/>
+        <Class IRI="#Content_Creation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal_Visual"/>
+        <Class IRI="#Cognitive_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VideoPlayerElement"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WebDesignGuideline"/>
+        <Class IRI="#WebDesign"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wholist_Analytic"/>
+        <Class IRI="#Cognitive_Style"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Working_memory"/>
+        <Class IRI="#Memory_functions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Writing"/>
+        <Class IRI="#Capability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Feedback/Opinions"/>
+        <Class IRI="#Surveys"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretation_&amp;_Analysis"/>
+        <Class IRI="#MicroTasks"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verification_&amp;_Validation"/>
+        <Class IRI="#MicroTasks"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Wholist_Analytic"/>
+        <NamedIndividual IRI="#Analytic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AudioPlayerElement"/>
+        <NamedIndividual IRI="#AudioPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BreadCrumbElement"/>
+        <NamedIndividual IRI="#BreadCrumb"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ButtonElement"/>
+        <NamedIndividual IRI="#Button"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorization"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Categorization"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CheckBoxElement"/>
+        <NamedIndividual IRI="#CheckBox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Classification"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_Validation"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_Validation"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_Verification"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_Verification"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Matching"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Data_Matching"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DropdownElement"/>
+        <NamedIndividual IRI="#Dropdown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognitive_flexibility"/>
+        <NamedIndividual IRI="#GoodCognitiveFlexibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inhibition_Control"/>
+        <NamedIndividual IRI="#GoodInhibitionControl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Working_memory"/>
+        <NamedIndividual IRI="#GoodWorkingMemory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControlAction"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Extrinsic"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intrinsic"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Writing"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IconElement"/>
+        <NamedIndividual IRI="#Icon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ImageElement"/>
+        <NamedIndividual IRI="#Image"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#InputTextElement"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ControlAction"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Extrinsic"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Intrinsic"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Writing"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Media_Transcription"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Media_Transcription"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Task"/>
+        <NamedIndividual IRI="#MicroTask"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cognitive_flexibility"/>
+        <NamedIndividual IRI="#PoorCognitiveFlexibility"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Inhibition_Control"/>
+        <NamedIndividual IRI="#PoorInhibitionControl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Working_memory"/>
+        <NamedIndividual IRI="#PoorWorkingMemory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RadioButtonElement"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentiment_Analysis"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sentiment_Analysis"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spam_Detection"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Spam_Detection"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Text-LabelElement"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Translation"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Translation"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verbal_Visual"/>
+        <NamedIndividual IRI="#Verbal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VideoPlayerElement"/>
+        <NamedIndividual IRI="#VideoPlayer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Verbal_Visual"/>
+        <NamedIndividual IRI="#Visual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wholist_Analytic"/>
+        <NamedIndividual IRI="#Wholist"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+        <NamedIndividual IRI="#Icon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+        <NamedIndividual IRI="#Dropdown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+        <NamedIndividual IRI="#Icon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+        <NamedIndividual IRI="#Dropdown"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#GoodCognitiveFlexibility"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#GoodInhibitionControl"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#GoodWorkingMemory"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#GoodWorkingMemory"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighControlAction"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#CategorizationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#ClassificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#ContentValidationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#ContentVerificationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#DataMatchingNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#HighSkillWriting"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#CategorizationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#ClassificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#ContentValidationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#ContentVerificationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#DataMatchingEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#linksTo"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+        <NamedIndividual IRI="#Icon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#MediaTranscriptionEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#MediaTranscriptionNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#PoorCognitiveFlexibility"/>
+        <NamedIndividual IRI="#LowSkillWriting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#PoorInhibitionControl"/>
+        <NamedIndividual IRI="#LowControlAction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#PoorWorkingMemory"/>
+        <NamedIndividual IRI="#LowExtrinsicCognitiveLoad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#relatedTo"/>
+        <NamedIndividual IRI="#PoorWorkingMemory"/>
+        <NamedIndividual IRI="#LowIntrinsicCognitiveLoad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+        <NamedIndividual IRI="#Button"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SentimentAnalysisEasy"/>
+        <NamedIndividual IRI="#Icon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SentimentAnalysisNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SpamDetectionEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#SpamDetectionNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#TranslationEasy"/>
+        <NamedIndividual IRI="#RadioButton"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+        <NamedIndividual IRI="#InputText"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs"/>
+        <NamedIndividual IRI="#TranslationNormal"/>
+        <NamedIndividual IRI="#TextLabel"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#linksTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#idDueTo"/>
+        <ObjectProperty IRI="#relatedTo"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCapability"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#idDueTo"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#linksTo"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#needs"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Body_Functions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCapability"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#idDueTo"/>
+        <Class IRI="#Body_Functions"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#linksTo"/>
+        <Class IRI="#Task"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#needs"/>
+        <Class IRI="#UserInterfaceElement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#relatedTo"/>
+        <Class IRI="#Capability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#WebDesign"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <Class IRI="#WebDesign"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#User"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Body_Functions</IRI>
+        <Literal>ICF - Broad ranges of percentages are provided for those cases in which calibrated assessment instruments or other standards are available to quantify the impairment in body function. For example, when &quot;no impairment&quot; or &quot;complete impairment&quot; in body function is coded, this scaling may have margin of error of up to 5%. &quot;Moderate impairment&quot; is generally up to half of the scale of total impairment. The percentages are to be calibrated in different domains with reference to population standards as percentiles. For this quantification to be used in a uniform manner, assessment procedures need to be developed through research.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cognitive_flexibility</IRI>
+        <Literal>ICF - Mental functions of changing strategies, or shifting mental sets, especially as involved in problem-solving.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Energy_and_drive_functions</IRI>
+        <Literal>ICF - General mental functions of physiological and psychological mechanisms that cause the individual to move towards satisfy specific needs and general goals in a persistent manner.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Higher-level_cognitive_functions</IRI>
+        <Literal>ICF - Specific mental functions especially dependent on the frontal lobes of the brain, including complex goal-directed behaviours such as decision-making, abstract thinking, planning and carrying out plans, mental flexibility, and deciding which behaviours are appropriate under what circumstances; often called executive functions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Inhibition_Control</IRI>
+        <Literal>ICF- Mental functions that regulate and resist sudden intense urges to do something.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Memory_functions</IRI>
+        <Literal>ICF - Specific mental functions of registering and storing information and retrieving it as needed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mental_Functions</IRI>
+        <Literal>ICF - This chapter is about the functions of the brain: both global mental functions, such as consciousness, energy and drive, and specific mental functions, such as memory, language and calculation mental functions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Working_memory</IRI>
+        <Literal>ICF - Mental functions that compare and process information retrieved from both short-term and long-term memory.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
